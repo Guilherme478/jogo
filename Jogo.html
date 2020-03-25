@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mount-Browsers</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script type="text/javascript">
+  
+      function changeDif(dif){
+      if (dif == "easy") {
+          document.getElementById("sq1").innerHTML = "<a href='puzzles/easy_dbz/index.html'><img src='puzzles/easy_dbz/img/dbz.png' width='230px' height='129px'></a>";
+          document.getElementById("sq2").innerHTML = "<a href='puzzles/easy_dota/index.html'><img src='puzzles/easy_dota/img/dota.png' width='230px' height='129px'></a>";
+          document.getElementById("sq3").innerHTML = "<a href='puzzles/easy_h1z1/index.html'><img src='puzzles/easy_h1z1/img/h1z1.png' width='230px' height='129px'></a>";
+          document.getElementById("sq4").innerHTML = "<a href='puzzles/easy_nasa/index.html'><img src='puzzles/easy_nasa/img/nasa.png' width='230px' height='129px'></a>";
+          document.getElementById("sq5").innerHTML = "<a href='puzzles/easy_pubg/index.html'><img src='puzzles/easy_pubg/img/pubg.png' width='230px' height='129px'></a>";
+          document.getElementById("sq6").innerHTML = "<a href='puzzles/easy_southpark/index.html'><img src='puzzles/easy_southpark/img/southpark.png' width='230px' height='129px'></a>";
+          
+      }
+          if (dif == "medium") {
+            document.getElementById("sq1").innerHTML = "<a href='puzzles/medium_assassins/index.html'><img src='puzzles/medium_assassins/img/assassins.png' width='230px' height='129px'></a>";
+          document.getElementById("sq2").innerHTML = "<a href='puzzles/medium_bb/index.html'><img src='puzzles/medium_bb/img/bb.png' width='230px' height='129px'></a>";
+          document.getElementById("sq3").innerHTML = "<a href='puzzles/medium_spider/index.html'><img src='puzzles/medium_spider/img/spider.png' width='230px' height='129px'></a>";
+          document.getElementById("sq4").innerHTML = "<a href='puzzles/medium_tunnel/index.html'><img src='puzzles/medium_tunnel/img/tunnel.png' width='230px' height='129px'></a>";
+          document.getElementById("sq5").innerHTML = "<a href='puzzles/medium_van/index.html'><img src='puzzles/medium_van/img/van.png' width='230px' height='129px'></a>";
+          document.getElementById("sq6").innerHTML = "<a href='puzzles/medium_warr/index.html'><img src='puzzles/medium_warr/img/warrior.png' width='230px' height='129px'></a>";
+          medium_assassins
+      }
+          if (dif == "hard") {
+            document.getElementById("sq1").innerHTML = "<a href='puzzles/hard_dog/index.html'><img src='puzzles/hard_dog/img/dog.png' width='230px' height='129px'></a>";
+          document.getElementById("sq2").innerHTML = "<a href='puzzles/hard_ds2/index.html'><img src='puzzles/hard_ds2/img/ds2.png' width='230px' height='129px'></a>";
+          document.getElementById("sq3").innerHTML = "<a href='puzzles/hard_alienxpredator/index.html'><img src='puzzles/hard_alienxpredator/img/alienxpredator.png' width='230px' height='129px'></a>";
+          document.getElementById("sq4").innerHTML = "<a href='puzzles/hard_sniper/index.html'><img src='puzzles/hard_sniper/img/sniper.png' width='230px' height='129px'></a>";
+          document.getElementById("sq5").innerHTML = "<a href='puzzles/hard_got/index.html'><img src='puzzles/hard_got/img/got.png' width='230px' height='129px'></a>";
+          document.getElementById("sq6").innerHTML = "<a href='puzzles/hard_landscape/index.html'><img src='puzzles/hard_landscape/img/landscape.png' width='230px' height='129px'></a>";
+      }
+      }
+      
+  </script>
+</head>
+
+<body>
+     <div class="logo">
+         <img src="assets/img/logo.png" alt="">
+     </div>
+     <table class="tg">
+  <tr>
+    <th class="tg-yw4l" rowspan="3">
+        <div class="menu">
+             <img onclick="javascript:changeDif('easy')" class="btn" src="assets/img/easyBtn.png" alt=""><br>
+             <img onclick="javascript:changeDif('medium')" class="btn" src="assets/img/mediumBtn.png" alt=""><br>
+             <img onclick="javascript:changeDif('hard')" class="btn" src="assets/img/hardBtn.png" alt=""><br>
+         </div>
+    </th>
+    <th></th>
+    <th></th>
+    </tr>
+    <tr>
+        <td class="tg-yw4l"><div id="sq1"></div></td>
+        <td class="tg-yw4l"><div id="sq2"></div></td>
+        <td class="tg-yw4l"><div id="sq3"></div></td>
+    </tr>
+  <tr>
+    <td class="tg-yw4l"><div id="sq4"></div></td>
+    <td class="tg-yw4l"><div id="sq5"></div></td>
+    <td class="tg-yw4l"><div id="sq6"></div></td>
+  </tr>
+</table>
+     
+     
+  
+</body>
+</html>

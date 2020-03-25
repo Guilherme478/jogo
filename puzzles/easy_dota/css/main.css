@@ -1,0 +1,12 @@
+body { background-color: #518ea0; }
+
+.logo { text-align: center;}
+
+#container {
+    display: block;
+    margin: 0 auto;
+}
+
+#background {
+    opacity: 0.3;
+}

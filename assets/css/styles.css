@@ -1,0 +1,26 @@
+body {
+    background-color: #518ea0;
+    margin: 0;
+}
+
+.logo {
+    text-align: center;
+    margin: 40px 0 auto;
+}
+
+.menu {
+    width: 500px;
+    height: 640px;
+    background-image: url("../img/menuBase.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 40px;
+    text-align: center;
+}
+
+.btn{
+    width: 237px;
+    height: 85px;
+    margin-top:200px;
+    margin-bottom: -200px;
+}
